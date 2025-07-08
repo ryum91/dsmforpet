@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+/* 커스텀 폰트 및 스타일 */
+body {
+  font-family: 'Segoe UI', 'Malgun Gothic', '맑은 고딕', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* 스크롤바 스타일링 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #2563eb, #7c3aed);
+}
+
+/* 부드러운 애니메이션을 위한 기본 설정 */
+* {
+  scroll-behavior: smooth;
+}
+
+/* 버튼 호버 효과 개선 */
+button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 포커스 스타일 개선 */
+button:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
