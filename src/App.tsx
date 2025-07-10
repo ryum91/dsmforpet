@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { WelcomeScreen } from './components/WelcomeScreen';
 import { QuestionCard } from './components/QuestionCard';
-import { ResultCard } from './components/ResultCard';
+import { ResultCard } from './components/ResultCardNew';
 import { ProgressBar } from './components/ProgressBar';
 import { questions } from './data';
 import { calculateRecommendation, getProgressPercentage } from './utils/recommendation';

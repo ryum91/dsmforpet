@@ -22,6 +22,7 @@ export interface Treat {
   name: string;
   description: string;
   image: string;
+  buyLink: string;
   feedingTip: string;
   characteristics: string[];
   matchingCriteria: {
